@@ -30,7 +30,6 @@ var (
 
 	rootCmd = &cobra.Command{
 		Use:          programName,
-		Aliases:      []string{"m"},
 		Short:        "cli to manage csi-driver-lvm peristent vlumes.",
 		Long:         "",
 		Version:      v.V.String(),

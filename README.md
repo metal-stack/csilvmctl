@@ -8,12 +8,9 @@ Make sure to have a recent backup (velero) before using.
 
 ## Usage
 
-```bash
+```
 Usage:
   csilvmctl [command]
-
-Aliases:
-  csilvmctl, m
 
 Available Commands:
   help        Help about any command
@@ -31,7 +28,7 @@ Flags:
 
 ## Example
 
-```bash
+```
 $ kubectl get pvc
 NAME              STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   AGE
 storage-my-db-0   Bound    pvc-7198a307-2c66-421c-9cec-f545a445d5d2   50Gi       RWO            csi-lvm        9d
